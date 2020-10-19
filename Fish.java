@@ -7,4 +7,14 @@ public class Fish{
 		System.out.println(color + " fish swim");
 
 	}
+
+	public void SetColor(String warna){
+
+		color = warna;
+
+	}
+
+	public String GetColor(){
+		return color;
+	}
 }
